@@ -28,7 +28,7 @@
       };
     in
     {
-      themes.solarized = with baseColors; {
+      solarized = with baseColors; {
         light = {
           background = base3;
           backHighlight = base2;
