@@ -65,13 +65,13 @@
       solarized = with baseColors; {
         light = {
           cterm = {
-            background = base3.idx;
-            backHighlight = base2.idx;
+            background = 0;
+            backHighlight = 8;
             secondaryContent = base1.idx;
             primaryContent = base00.idx;
             highlight = base01.idx;
-            black = base02.idx;
-            brightBlack = base03.idx;
+            black = 7;
+            brightBlack = 15;
             brightBlue = base0.idx;
           }
           // ctermAccentColors;
