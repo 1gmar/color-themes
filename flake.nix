@@ -9,35 +9,35 @@
       baseColors = {
         base03 = {
           val = "#002b36";
-          idx = 8;
+          idx = "8";
         };
         base02 = {
           val = "#073642";
-          idx = 0;
+          idx = "0";
         };
         base01 = {
           val = "#586e75";
-          idx = 10;
+          idx = "10";
         };
         base00 = {
           val = "#657b83";
-          idx = 11;
+          idx = "11";
         };
         base0 = {
           val = "#839496";
-          idx = 12;
+          idx = "12";
         };
         base1 = {
           val = "#93a1a1";
-          idx = 14;
+          idx = "14";
         };
         base2 = {
           val = "#eee8d5";
-          idx = 7;
+          idx = "7";
         };
         base3 = {
           val = "#fdf6e3";
-          idx = 15;
+          idx = "15";
         };
       };
       accentColors = {
@@ -51,27 +51,27 @@
         green = "#859900";
       };
       ctermAccentColors = {
-        yellow = 3;
-        orange = 9;
-        red = 1;
-        magenta = 5;
-        violet = 13;
-        blue = 4;
-        cyan = 6;
-        green = 2;
+        yellow = "3";
+        orange = "9";
+        red = "1";
+        magenta = "5";
+        violet = "13";
+        blue = "4";
+        cyan = "6";
+        green = "2";
       };
     in
     {
       solarized = with baseColors; {
         light = {
           cterm = {
-            background = 0;
-            backHighlight = 8;
+            background = "0";
+            backHighlight = "8";
             secondaryContent = base1.idx;
             primaryContent = base00.idx;
             highlight = base01.idx;
-            black = 7;
-            brightBlack = 15;
+            black = "7";
+            brightBlack = "15";
             brightBlue = base0.idx;
           }
           // ctermAccentColors;
